@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1, p{
+  text-align: center;
+  color: beige;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  margin-top: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#form {
+  margin-bottom: 20px ;
+}
+
+.square{
+  width: 16px;
+  height: 16px;
+  background: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  margin: 2px;
+  transition: 2s ease;
+}
+
+.square:hover{
+  transition-duration: 0s;
+}
+
+.btn, #input {
+  background-color: burlywood;
+  border-radius: 20px;
+}
+
+#deletBtn{
+  margin-right: 5px;
+}
+

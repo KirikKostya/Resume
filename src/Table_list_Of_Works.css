@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+} 
+tr{
+    width: 20px;
+}
+.MainTable{
+    display: flex;
+    justify-content: center;
+}
+

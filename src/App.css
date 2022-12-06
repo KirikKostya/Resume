@@ -1,0 +1,24 @@
+.App {
+  background-color: #1d2128;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainConteinerOfResume{
+  background-color: rgb(227, 218, 205);
+  width: 1000px;
+  height: max-content;
+  margin-top: 20px;
+  /* border: 2px solid black; */
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 40px;
+  box-shadow: -5px -5px 5px 5px #99999b;
+
+}

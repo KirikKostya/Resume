@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag&Drop technique</title>
+  </head>
+  <body>
+
+
+    <form action="#">
+      <input type="text" placeholder="Enter your task" class="input"> <br>
+      <button  class="btn">Add first task value</button> <br>
+    </form>
+      
+    <div>
+      <h1 class="header">List of your tasks<br> with Drag&Drop technique</h1>
+
+      <div class="row">
+          <div class="col-header start">Beginning</div>
+          <div class="col-header progress">In progress</div>
+          <div class="col-header done">Done</div>
+      </div>
+
+      <div class="secondRow">
+        <div class="placeholder">
+          <div class="item" draggable="true">Your Task!</div>
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    <script src="mainJS.js"></script>
+  </body>
+</html>

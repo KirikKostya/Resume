@@ -1,0 +1,56 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 3px rgb(27, 26, 26);
+}
+
+.ContentWithMe{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    padding-left: 20px;
+    height: 200px;
+}
+
+header{
+    text-align: center;
+}
+
+a.link{
+    text-decoration: none;
+    color: red
+}
+
+h4{
+    width: 120px;
+    height: 10px;
+}
+
+h4, h5{
+
+    padding-left: 5px;
+}
+
+p{
+    width: 300px;
+    height: 160px;
+    border: 1px solid rgb(82, 36, 218);
+    border-radius: 15px;
+    margin-top: 0;
+    margin-left: 15px;
+    background-color: rgba(215, 217, 210, 0.897);
+    box-shadow: -5px 5px 2px 2px rgb(87, 84, 84) ;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.facts{
+    margin-left: 10px;
+    color: rgb(58, 57, 36);
+    bottom: 0;
+}
